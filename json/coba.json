@@ -1,13 +1,13 @@
 [
     {
-        "Nama" : "Nelsi",
+        "Nama" : "Nelsi Ramanda",
         "Umur" : 32,
-        "nrp" : "043040023",
-        "Lulus" : true,
+        "nrp" : "2217020003",
+        "Lulus" : false,
         "Hobby" : [
-            "Coding",
+            "Reading",
             "Gaming"
         ],
-        "Pembimbing" :"Doddy Ferdiansyah"
+        "Dosen" :"Haditya Prasetyo"
     }
 ]
