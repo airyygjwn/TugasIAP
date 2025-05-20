@@ -1,0 +1,24 @@
+[
+    {
+        "Nama" : "Sandhika",
+        "Umur" : 32,
+        "nrp" : "043040023",
+        "Lulus" : true,
+        "Hobby" : [
+            "Coding",
+            "Gaming"
+        ],
+        "Pembimbing" :"Doddy Ferdiansyah"
+    },
+    {
+        "Nama" : "Sandhika",
+        "Umur" : 32,
+        "nrp" : "043040023",
+        "Lulus" : true,
+        "Hobby" : [
+            "Coding",
+            "Gaming"
+        ],
+        "Pembimbing" :"Doddy Ferdiansyah"
+    }
+]
