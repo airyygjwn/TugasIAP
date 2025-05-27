@@ -69,7 +69,7 @@ $gambar5 = $resultGambar5['media_url'];
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#home">Sandhika Galih</a>
+        <a class="navbar-brand" href="#home">Nelsi Ramanda</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -93,9 +93,9 @@ $gambar5 = $resultGambar5['media_url'];
     <div class="jumbotron" id="home">
       <div class="container">
         <div class="text-center">
-          <img src="img/profile1.png" class="rounded-circle img-thumbnail">
-          <h1 class="display-4">Sandhika Galih</h1>
-          <h3 class="lead">Lecturer | Programmer | Youtuber</h3>
+          <img src="img/profile3.png" class="rounded-circle img-thumbnail">
+          <h1 class="display-4">Nelsi Ramanda</h1>
+          <h3 class="lead">Mahasiswa | Sistem Informasi | Content Creator</h3>
         </div>
       </div>
     </div>
@@ -196,9 +196,11 @@ $gambar5 = $resultGambar5['media_url'];
         <div class="row">
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/7.png" alt="Movie Project">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Movie Search Project</h5>
+                <p class="card-text">Project aplikasi pencarian film menggunakan API, Bootstrap, dan JavaScript.</p>
+                <a href="index.html" class="btn btn-primary">Lihat Project</a>
               </div>
             </div>
           </div>
