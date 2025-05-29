@@ -22,30 +22,15 @@ $urlLatestVideo = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyCSJ_a9
 $result = get_Curl($urlLatestVideo);
 $latestVideoId = $result['items'][0]['id']['videoId'];
 
-//instagram API
-$clientID = "1277256363821289";
-$accessToken = "IGAASJqGvaSOlBZAE1WY1hWT0VseUpIN1pmeWxQLXpnYVpFaWx6S1BnSUdQQklZAbUFvRWhYRVRUa2xJREh3c201ZA0lCZAE96b2ZAmeXNUTGZAzUFpEOENVd012T0tfUFNyUHhFcXRKSV80UkR3TW94VUt6d0ZAYQ19UZAndJbFJsX0RXZAwZDZD";
+// Channel Kedua
+$result2 = get_Curl("https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCArLZtok93cO5R9RI4_Y5Jw&key=AIzaSyCSJ_a9PTL9ojuNP3LJuwD5l3-NrO88OWM");
+$youtubeProfilePic2 = $result2['items'][0]['snippet']['thumbnails']['medium']['url'];
+$channelName2 = $result2['items'][0]['snippet']['title'];
+$subscriber2 = $result2['items'][0]['statistics']['subscriberCount'];
 
-$result2 = get_Curl("https://graph.instagram.com/v22.0/me?fields=username,profile_picture_url,followers_count&access_token=IGAASJqGvaSOlBZAE1WY1hWT0VseUpIN1pmeWxQLXpnYVpFaWx6S1BnSUdQQklZAbUFvRWhYRVRUa2xJREh3c201ZA0lCZAE96b2ZAmeXNUTGZAzUFpEOENVd012T0tfUFNyUHhFcXRKSV80UkR3TW94VUt6d0ZAYQ19UZAndJbFJsX0RXZAwZDZD");
-
-$usernameIG = $result2['username'];
-$profilePictureIG = $result2['profile_picture_url'];
-$followersIG = $result2['followers_count'];
-
-//media IG
-$resultGambar1 = get_Curl("https://graph.instagram.com/v22.0/18029276387448609?fields=media_url&access_token=IGAASJqGvaSOlBZAE1WY1hWT0VseUpIN1pmeWxQLXpnYVpFaWx6S1BnSUdQQklZAbUFvRWhYRVRUa2xJREh3c201ZA0lCZAE96b2ZAmeXNUTGZAzUFpEOENVd012T0tfUFNyUHhFcXRKSV80UkR3TW94VUt6d0ZAYQ19UZAndJbFJsX0RXZAwZDZD");
-$resultGambar2 = get_Curl("https://graph.instagram.com/v22.0/18046106128126227?fields=media_url&access_token=IGAASJqGvaSOlBZAE1WY1hWT0VseUpIN1pmeWxQLXpnYVpFaWx6S1BnSUdQQklZAbUFvRWhYRVRUa2xJREh3c201ZA0lCZAE96b2ZAmeXNUTGZAzUFpEOENVd012T0tfUFNyUHhFcXRKSV80UkR3TW94VUt6d0ZAYQ19UZAndJbFJsX0RXZAwZDZD");
-$resultGambar3 = get_Curl("https://graph.instagram.com/v22.0/18069013345001390?fields=media_url&access_token=IGAASJqGvaSOlBZAE1WY1hWT0VseUpIN1pmeWxQLXpnYVpFaWx6S1BnSUdQQklZAbUFvRWhYRVRUa2xJREh3c201ZA0lCZAE96b2ZAmeXNUTGZAzUFpEOENVd012T0tfUFNyUHhFcXRKSV80UkR3TW94VUt6d0ZAYQ19UZAndJbFJsX0RXZAwZDZD");
-$resultGambar4 = get_Curl("https://graph.instagram.com/v22.0/17885771581344814?fields=media_url&access_token=IGAASJqGvaSOlBZAE1WY1hWT0VseUpIN1pmeWxQLXpnYVpFaWx6S1BnSUdQQklZAbUFvRWhYRVRUa2xJREh3c201ZA0lCZAE96b2ZAmeXNUTGZAzUFpEOENVd012T0tfUFNyUHhFcXRKSV80UkR3TW94VUt6d0ZAYQ19UZAndJbFJsX0RXZAwZDZD");
-$resultGambar5 = get_Curl("https://graph.instagram.com/v22.0/18051016933118137?fields=media_url&access_token=IGAASJqGvaSOlBZAE1WY1hWT0VseUpIN1pmeWxQLXpnYVpFaWx6S1BnSUdQQklZAbUFvRWhYRVRUa2xJREh3c201ZA0lCZAE96b2ZAmeXNUTGZAzUFpEOENVd012T0tfUFNyUHhFcXRKSV80UkR3TW94VUt6d0ZAYQ19UZAndJbFJsX0RXZAwZDZD");
-
-
-$gambar1 = $resultGambar1['media_url'];
-$gambar2 = $resultGambar2['media_url'];
-$gambar3 = $resultGambar3['media_url'];
-$gambar4 = $resultGambar4['media_url'];
-$gambar5 = $resultGambar5['media_url'];
-
+$urlLatestVideo2 = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyCSJ_a9PTL9ojuNP3LJuwD5l3-NrO88OWM&channelId=UCArLZtok93cO5R9RI4_Y5Jw&maxResult=1&order=date&part=snippet";
+$result2 = get_Curl($urlLatestVideo2);
+$latestVideoId2 = $result2['items'][0]['id']['videoId'];
 
 
 ?>
@@ -120,70 +105,61 @@ $gambar5 = $resultGambar5['media_url'];
       </div>
     </section>
 
-    <!-- Youtube & IG -->
-     <section class="social bg-light" id="social">
-      <div class="container">
-        <div class="row pt-4 mb-4">
-          <div class="col text-center">
-            <h2>Social Media</h2>
+    <!-- Youtube -->
+<section class="social bg-light" id="social">
+  <div class="container">
+    <div class="row pt-4 mb-4">
+      <div class="col text-center">
+        <h2>Social Media</h2>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <!-- Channel YouTube Pertama -->
+      <div class="col-md-5">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="<?= $youtubeProfilePic; ?>" width="200" class="rounded-circle img-thumbnail">
+          </div>
+          <div class="col-md-8">
+            <h5><?= $channelName; ?></h5>
+            <p><?= $subscriber; ?> Subscriber.</p>
+            <div class="g-ytsubscribe" data-channelid="UCwfZQDkygmgxOOUGv0WddbA" data-layout="default" data-count="default"></div>
           </div>
         </div>
-
-        <div class="row justify-content-center">
-          <div class="col-md-5">
-            <div class="row">
-              <div class="col md-4">
-                <img src="<?= $youtubeProfilePic; ?>" width="200" class="rounded-circle img-thumbnail">
-              </div>
-              <div class="col-md-8">
-                <h5><?= $channelName; ?></h5>
-                <p><?= $subscriber; ?> Subscriber.</p>
-                <div class="g-ytsubscribe" data-channelid="UC5djXA3ShHS9_Z12sB5QQ9Q" data-layout="default" data-count="default"></div>
-              </div>
+        <div class="row mt-3 pb-3">
+          <div class="col">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?= $latestVideoId; ?>" allowfullscreen></iframe>
             </div>
-            <div class="row mt-3 pb-3">
-              <div class="col">
-                <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?= $latestVideoId; ?>" allowfullscreen></iframe>
-              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5">
-            <div class="row">
-              <div class="col md-4">
-                <img src="<?= $profilePictureIG; ?>" width="200" class="rounded-circle img-thumbnail">
-              </div>
-              <div class="col-md-8">
-                <h5><?= $usernameIG ?></h5>
-                <p><?= $followersIG ?> Followers.</p>
-              </div>
-            </div>
-
-            <div class="row mt-3 pb-3">
-              <div class="col">
-                <div class="ig-thumbnail">
-                  <img src="<?= $gambar1; ?>">
-                </div>
-                <div class="ig-thumbnail">
-                  <img src="<?= $gambar2; ?>">
-                </div>
-                <div class="ig-thumbnail">
-                  <img src="<?= $gambar3; ?>">
-                </div>
-                <div class="ig-thumbnail">
-                  <img src="<?= $gambar4; ?>">
-                </div>
-                <div class="ig-thumbnail">
-                  <img src="<?= $gambar5; ?>">
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
-     </section>
+
+      <!-- Channel YouTube Kedua -->
+      <div class="col-md-5">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="<?= $youtubeProfilePic2; ?>" width="200" class="rounded-circle img-thumbnail">
+          </div>
+          <div class="col-md-8">
+            <h5><?= $channelName2; ?></h5>
+            <p><?= $subscriber2; ?> Subscriber.</p>
+            <div class="g-ytsubscribe" data-channelid="UCArLZtok93cO5R9RI4_Y5Jw" data-layout="default" data-count="default"></div>
+          </div>
+        </div>
+        <div class="row mt-3 pb-3">
+          <div class="col">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?= $latestVideoId2; ?>" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Portfolio -->
     <section class="portfolio" id="portfolio">
