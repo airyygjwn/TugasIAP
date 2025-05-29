@@ -95,7 +95,7 @@ $gambar5 = $resultGambar5['media_url'];
         <div class="text-center">
           <img src="img/profile3.png" class="rounded-circle img-thumbnail">
           <h1 class="display-4">Nelsi Ramanda</h1>
-          <h3 class="lead">Mahasiswa | Sistem Informasi | Content Creator</h3>
+          <h3 class="lead">Sistem Informasi | 2217020003 | Angkatan 22 </h3>
         </div>
       </div>
     </div>
@@ -111,10 +111,10 @@ $gambar5 = $resultGambar5['media_url'];
         </div>
         <div class="row justify-content-center">
           <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
+            <p>Saya Nelsi Ramanda, saya adalah seorang mahasiswa sistem informasi, sekarang saya berada di semester 6, saya aktif mengikuti kegiatan di fakultas ataupun universitas, dan saya juga suka olahraga terutama di cabang Tenis Meja.</p>
           </div>
           <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
+            <p>Saya senang mengembangkan diri tidak hanya di bidang akademik, tetapi juga melalui berbagai kegiatan organisasi dan olahraga. Dengan semangat belajar yang tinggi, saya terus berusaha meningkatkan pengetahuan dan keterampilan di bidang Sistem Informasi. </p>
           </div>
         </div>
       </div>
@@ -196,7 +196,7 @@ $gambar5 = $resultGambar5['media_url'];
         <div class="row">
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/7.png" alt="Movie Project">
+              <img class="card-img-top" src="img/thumbs/8.png" alt="Movie Project">
               <div class="card-body">
                 <h5 class="card-title">Movie Search Project</h5>
                 <p class="card-text">Project aplikasi pencarian film menggunakan API, Bootstrap, dan JavaScript.</p>
@@ -207,51 +207,24 @@ $gambar5 = $resultGambar5['media_url'];
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/2.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/9.png" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Dokumentasi saya ketika mengikuti lomba Tenis Meja pada PKM-U yang diadakan pada tanggal 30 April 2025.</p>
               </div>
             </div>
           </div>
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/3.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/10.png" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Dokumentasi ketika saya mengikuti magang di Dinas Kominfo Kota Solok.</p>
               </div>
             </div>
           </div>   
         </div>
 
-        <div class="row">
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/thumbs/4.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div> 
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/thumbs/5.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/thumbs/6.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
 
@@ -270,15 +243,15 @@ $gambar5 = $resultGambar5['media_url'];
             <div class="card bg-primary text-white mb-4 text-center">
               <div class="card-body">
                 <h5 class="card-title">Contact Me</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Jangan ragu untuk menghubungi saya jika Anda memiliki pertanyaan, masukan, atau ingin bekerja sama.</p>
               </div>
             </div>
             
             <ul class="list-group mb-4">
               <li class="list-group-item"><h3>Location</h3></li>
-              <li class="list-group-item">My Office</li>
-              <li class="list-group-item">Jl. Setiabudhi No. 193, Bandung</li>
-              <li class="list-group-item">West Java, Indonesia</li>
+              <li class="list-group-item">UIN Imam Bonjol</li>
+              <li class="list-group-item">Sungai Bangek</li>
+              <li class="list-group-item">Padang, Sumatera Barat</li>
             </ul>
           </div>
 
