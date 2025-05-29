@@ -110,7 +110,7 @@ $latestVideoId2 = $result2['items'][0]['id']['videoId'];
   <div class="container">
     <div class="row pt-4 mb-4">
       <div class="col text-center">
-        <h2>Social Media</h2>
+        <h2>Vidio Playlist</h2>
       </div>
     </div>
 
