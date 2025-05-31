@@ -172,34 +172,27 @@ $latestVideoId2 = $result2['items'][0]['id']['videoId'];
         <div class="row">
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/8.png" alt="Movie Project">
+              <img class="card-img-top" src="img/thumbs/7.png" alt="Movie Project">
               <div class="card-body">
                 <h5 class="card-title">Movie Search Project</h5>
                 <p class="card-text">Project aplikasi pencarian film menggunakan API, Bootstrap, dan JavaScript.</p>
-                <a href="index.html" class="btn btn-primary">Lihat Project</a>
+                <a href="index.html" class="btn btn-primary">Lihat Projek WPU Movie</a>
               </div>
             </div>
           </div>
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/9.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/11.png" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Dokumentasi saya ketika mengikuti lomba Tenis Meja pada PKM-U yang diadakan pada tanggal 30 April 2025.</p>
+                <h5 class="card-title">Daftar Menu</h5>
+                <p class="card-text">Melihat daftar menu serta harga di fizza Hut Menggunakan Json. disini bisa filter sesuai kategori</p>
+                <a href="../wpu-hut/latihan2.html" class="btn btn-primary">Lihat Projek WPU HUT</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/thumbs/10.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Dokumentasi ketika saya mengikuti magang di Dinas Kominfo Kota Solok.</p>
-              </div>
-            </div>
-          </div>   
-        </div>
-
+          
         
       </div>
     </section>
